@@ -1,0 +1,90 @@
+body {
+
+    background-color: black;
+}
+
+.Header__fundo {
+
+    background-color: #160f0f;
+}
+
+.Header__caixa {
+
+    width: 940px;
+    margin: 0 auto;
+
+    padding: 2rem;
+    position: relative;
+}
+
+.Header__lista {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Header__item {
+
+    font-size: 1.69rem;
+    list-style: none;
+}
+
+.Header__item a {
+
+    color: white;
+    text-decoration: none;
+}
+
+/*
+...form
+*/
+
+.formSec {
+
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form__div {
+
+    background: #1c1818;
+    padding: 2rem;
+}
+
+.form__formulario {
+
+    width: 100%;
+}
+
+.form__label {
+
+    color: white;
+    font-weight: bold;
+    font-size: 1.30rem;
+}
+
+.form__input {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+    height: 35px;
+
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.form__caixa_botao {
+
+    text-align: center;
+}
+
+.form__botao {
+
+    color: black;
+    width: 60%;
+    margin-top: 1rem;
+    font-size: 1.10rem;
+}
